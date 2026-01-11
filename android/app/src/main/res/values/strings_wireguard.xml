@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2017-2025 WireGuard LLC. All Rights Reserved.
+  ~ SPDX-License-Identifier: Apache-2.0
+  -->
+<resources>
+    <!-- App name -->
+    <string name="app_name_wireguard">WireGuard</string>
+
+    <!-- Tunnel list -->
+    <string name="tunnel_list_title">WireGuard</string>
+    <string name="tunnel_list_empty">No tunnels configured</string>
+    <string name="tunnel_list_empty_hint">Tap the + button to add a tunnel</string>
+    <string name="tunnel_list_selected">%d selected</string>
+
+    <!-- Tunnel actions -->
+    <string name="add_tunnel">Add Tunnel</string>
+    <string name="create_from_scratch">Create from scratch</string>
+    <string name="create_from_scratch_hint">Manually enter tunnel configuration</string>
+    <string name="import_from_file">Import from file or archive</string>
+    <string name="import_from_file_hint">Import .conf or .zip files</string>
+    <string name="scan_qr_code">Scan from QR code</string>
+    <string name="scan_qr_code_hint">Scan a WireGuard configuration QR code</string>
+
+    <!-- Tunnel states -->
+    <string name="tunnel_state_active">Active</string>
+    <string name="tunnel_state_inactive">Inactive</string>
+    <string name="tunnel_state_connected">Connected</string>
+    <string name="tunnel_state_disconnected">Disconnected</string>
+    <string name="tunnel_state_connecting">Connecting…</string>
+
+    <!-- Tunnel detail -->
+    <string name="tunnel_detail_status">Status</string>
+    <string name="tunnel_detail_interface">Interface</string>
+    <string name="tunnel_detail_peer">Peer</string>
+    <string name="tunnel_detail_public_key">Public key</string>
+    <string name="tunnel_detail_addresses">Addresses</string>
+    <string name="tunnel_detail_dns">DNS servers</string>
+    <string name="tunnel_detail_mtu">MTU</string>
+    <string name="tunnel_detail_listen_port">Listen port</string>
+    <string name="tunnel_detail_endpoint">Endpoint</string>
+    <string name="tunnel_detail_allowed_ips">Allowed IPs</string>
+    <string name="tunnel_detail_persistent_keepalive">Persistent keepalive</string>
+    <string name="tunnel_detail_preshared_key">Pre-shared key</string>
+    <string name="tunnel_detail_transfer">Transfer</string>
+    <string name="tunnel_detail_latest_handshake">Latest handshake</string>
+    <string name="tunnel_detail_received">Received</string>
+    <string name="tunnel_detail_transmitted">Transmitted</string>
+
+    <!-- Tunnel editor -->
+    <string name="tunnel_editor_create">Create tunnel</string>
+    <string name="tunnel_editor_edit">Edit tunnel</string>
+    <string name="tunnel_editor_name">Name</string>
+    <string name="tunnel_editor_private_key">Private key</string>
+    <string name="tunnel_editor_generate_key">Generate new key</string>
+    <string name="tunnel_editor_addresses_hint">e.g., 10.0.0.1/24, fd00::1/128</string>
+    <string name="tunnel_editor_listen_port_hint">Random</string>
+    <string name="tunnel_editor_mtu_hint">Auto</string>
+    <string name="tunnel_editor_dns_hint">e.g., 1.1.1.1, 8.8.8.8</string>
+    <string name="tunnel_editor_endpoint_hint">e.g., vpn.example.com:51820</string>
+    <string name="tunnel_editor_allowed_ips_hint">e.g., 0.0.0.0/0, ::/0</string>
+    <string name="tunnel_editor_keepalive_hint">e.g., 25</string>
+    <string name="tunnel_editor_add_peer">Add peer</string>
+    <string name="tunnel_editor_remove_peer">Remove peer</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_interface">Interface</string>
+    <string name="settings_dark_theme">Dark theme</string>
+    <string name="settings_dark_theme_hint">Use dark colors for the app interface</string>
+    <string name="settings_behavior">Behavior</string>
+    <string name="settings_allow_remote">Allow remote control apps</string>
+    <string name="settings_allow_remote_hint">Allow apps like Tasker to toggle tunnels</string>
+    <string name="settings_restore_on_boot">Restore on boot</string>
+    <string name="settings_restore_on_boot_hint">Restore the previously active tunnel on device boot</string>
+    <string name="settings_support">Support</string>
+    <string name="settings_export_logs">Export zip of logs</string>
+    <string name="settings_export_logs_hint">Share tunnel logs for debugging</string>
+    <string name="settings_view_log">View log</string>
+    <string name="settings_view_log_hint">View application log</string>
+    <string name="settings_about">About</string>
+    <string name="settings_donate">Donate</string>
+    <string name="settings_donate_hint">Support WireGuard development</string>
+    <string name="settings_version">Version</string>
+
+    <!-- Log viewer -->
+    <string name="log_viewer_title">Log</string>
+    <string name="log_viewer_clear">Clear log</string>
+    <string name="log_viewer_share">Share log</string>
+    <string name="log_viewer_save">Save log</string>
+
+    <!-- QR scanner -->
+    <string name="qr_scanner_title">Scan QR Code</string>
+    <string name="qr_scanner_hint">Point camera at WireGuard QR code</string>
+    <string name="qr_scanner_permission_required">Camera permission required</string>
+    <string name="qr_scanner_permission_hint">To scan QR codes, please grant camera permission</string>
+    <string name="qr_scanner_grant_permission">Grant permission</string>
+
+    <!-- Errors -->
+    <string name="error_tunnel_not_found">Tunnel not found</string>
+    <string name="error_invalid_name">Invalid tunnel name</string>
+    <string name="error_name_exists">A tunnel with that name already exists</string>
+    <string name="error_invalid_config">Invalid configuration</string>
+    <string name="error_save_failed">Failed to save tunnel</string>
+    <string name="error_delete_failed">Failed to delete tunnel</string>
+    <string name="error_toggle_failed">Failed to toggle tunnel</string>
+    <string name="error_import_failed">Failed to import tunnel</string>
+
+    <!-- Quick Settings -->
+    <string name="quick_settings_title">WireGuard</string>
+    <string name="quick_settings_no_tunnels">No tunnels</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_tunnel">Tunnel Status</string>
+    <string name="notification_channel_tunnel_desc">Notifications about tunnel connection status</string>
+    <string name="notification_connected">Connected to %s</string>
+    <string name="notification_disconnect">Disconnect</string>
+
+    <!-- Time and units -->
+    <string name="time_never">Never</string>
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_bytes">B</string>
+    <string name="unit_kibibytes">KiB</string>
+    <string name="unit_mebibytes">MiB</string>
+    <string name="unit_gibibytes">GiB</string>
+
+    <!-- Actions -->
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_back">Back</string>
+    <string name="action_select_all">Select all</string>
+</resources>
